@@ -7,7 +7,7 @@ import seaborn as sns
 st.set_page_config(page_title="SalesSuccess Dashboard", layout="wide")
 
 # Load data
-df = pd.read_csv('data/cleaned_sales.csv')
+df = pd.read_csv('data/sales_data_sample.csv')
 
 st.title("📊 SalesSuccess: Sales Performance Dashboard")
 
